@@ -1,0 +1,21 @@
+{
+  "name": "go",
+  "version": "1.0.7",
+  "slug": "go",
+  "description": "Another Google-like Go short link service",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "application",
+  "webui": "http://[HOST]:[PORT:8067]/links",
+  "boot": "auto",
+  "options": {},
+  "schema": {},
+  "ports": {
+    "8067/tcp": 8067
+  },
+  "ports_description": {
+    "8067/tcp": "Web interface"
+  },
+  "panel_icon": "mdi:link-variant",
+  "panel_title": "Go"
+}
+
