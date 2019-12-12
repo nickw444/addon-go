@@ -3,6 +3,7 @@
   "version": "1.0.7",
   "slug": "go",
   "description": "Another Google-like Go short link service",
+  "url": "https://github.com/nickw444/hassio-addons/tree/master/go",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "application",
   "webui": "http://[HOST]:[PORT:8067]/links",
@@ -14,8 +15,5 @@
   },
   "ports_description": {
     "8067/tcp": "Web interface"
-  },
-  "panel_icon": "mdi:link-variant",
-  "panel_title": "Go"
+  }
 }
-
