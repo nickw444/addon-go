@@ -3,7 +3,7 @@ FROM $BUILD_FROM
 
 ENV LANG C.UTF-8
 
-RUN apk update && apk add --no-cache git musl-dev go
+RUN apk update && apk add --no-cache git musl-dev go gcc
 
 ENV GOROOT /usr/lib/go
 ENV GOPATH /go
