@@ -3,7 +3,7 @@
 A collection of my hassio addons
 
 * [go](go/): Another Google-like Go short link service
-
+* [owntone](owntone/): Fork of [johnpdowling's](https://github.com/johnpdowling/hassio-addons/tree/master/owntone) owntown addon to with support for Chromecast
 
 ## Installation
 
