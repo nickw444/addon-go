@@ -6,5 +6,5 @@ This add-on provides an installation of the [OwnTone](https://github.com/owntone
 2) For your setup, you may need to further edit owntone.conf to suit your needs. All files are located in %config%/owntone/ and are created after first start
 
 ## Notes
-1) The OwnTone compiled here was only given the web interface. Chromecast, Spotify, etc. are disabled in this add-on. I wanted an instance to work with my [custom integration](https://github.com/johnpdowling/custom_components/tree/master/owntone) and AirPlay devices
+1) The OwnTone compiled here was only given the web interface. I wanted an instance to work with my [custom integration](https://github.com/johnpdowling/custom_components/tree/master/owntone) and AirPlay devices
 2) The named pipe %config%/owntone/music/HomeAssistantAnnounce is created to facilitate announcements via the component
