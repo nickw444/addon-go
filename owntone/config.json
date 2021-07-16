@@ -24,5 +24,7 @@
   "options": {
   },
   "schema": {
-  }
+  },
+  "ingress": true,
+  "ingress_port": 3689
 }
