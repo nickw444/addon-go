@@ -1,6 +1,6 @@
 {
   "name": "OwnTone",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "slug": "owntone",
   "description": "OwnTone media server instance",
   "url": "https://github.com/johnpdowling/hassio-addons/owntone",
@@ -17,8 +17,9 @@
   "boot": "auto",
   "hassio_api": true,
   "hassio_role": "default",
-  "map": [ 
-    "config:rw"
+  "map": [
+    "config:rw",
+    "media:rw"
   ],
   "options": {
   },
