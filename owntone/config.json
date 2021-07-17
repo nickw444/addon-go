@@ -1,6 +1,6 @@
 {
   "name": "OwnTone",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "slug": "owntone",
   "description": "OwnTone media server instance",
   "url": "https://github.com/johnpdowling/hassio-addons/owntone",
@@ -24,7 +24,5 @@
   "options": {
   },
   "schema": {
-  },
-  "ingress": true,
-  "ingress_port": 3689
+  }
 }
